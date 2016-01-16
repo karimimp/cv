@@ -16,7 +16,7 @@
             citecolor = blue,
             anchorcolor = blue]{hyperref}
 
-
+\usepackage{hyperref}
 \usepackage{multicol}
 % The use of the times package forces the use of the type-1 times
 % roman font, but the times roman font does not look nice.
@@ -88,8 +88,8 @@
 
 Department of Applied Science and Technology& Phone: +39 (011) 090-4758\\
 Politecnico di Torino & Cell: +39 324 691 5870\\
-Email: mohsen.karimi@polito.it &  karimimp@gmail.com \\ 
-Corso Duca degli Abruzzi 24, 10129 Torino, Italy  \\
+Corso Duca degli Abruzzi 24, 10129 Torino, Italy & Email: mohsen.karimi@polito.it \\ 
+  \\
 \end{tabular*}
 \end{tabbing}
 
@@ -114,7 +114,7 @@ Corso Duca degli Abruzzi 24, 10129 Torino, Italy  \\
 
 \begin{tabbing}
 xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
-%\>\begin{tabular*}{6.1in}{lr}
+%\>*}{6.1in}{lr}
 
 \>\begin{tabular*}{0.97\linewidth}{l@{\extracolsep{\fill}}r}
 
@@ -156,7 +156,7 @@ B. Sc.in Mining Engineering &
 %\vspace{0.2cm}
 
 \begin{list}{}{}
-\item Application of CFD for different engineering fields; Formulations and developments of CFD solvers for single and multiphase systems; Fundamental studies towards establishing new modelling methodologies for a range of engineering problems encountering in the chemical, mechanical, process and mining engineering; 
+\item Application of CFD for different engineering fields; formulations and developments of CFD solvers for single and multiphase systems; fundamental studies towards establishing new modelling methodologies for a range of engineering problems encountering in the chemical, mechanical, process and mining engineering; 
 \end{list}
 
 \subsubsection*{RESEARCH EXPERIENCE}
@@ -172,10 +172,10 @@ xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
 \vspace{-0.4cm}
 
 \begin{list}{}{}
-\item Working with Professor Marchisio on \quotes{Modelling of Morphology Development of Micro and Nano Structures (MoDeNa)} project aiming to develop, demonstrate and evaluate a CFD-PBE model for polyurethane foams. 
+\item Working with Professor Marchisio on \quotes{Modelling of Morphology Development of Micro and Nano Structures \href{http://www.modenaproject.eu/}{(MoDeNa)}} project aiming to develop, demonstrate and evaluate a CFD-PBE model for polyurethane foams. 
  \item \hspace{16pt}  - Formulating a novel approach based on population balance equation for the simulation of polyurethane foams.
- \item \hspace{16pt}  - Developing and validating a zero-dimensional framework for simulation of reacting expanding polyurethane foams.
- \item \hspace{16pt}  - Introducing a new solver, \quotes{\texttt{QmomKinetics}}, in the OpenFOAM CFD code, based on coupling of PBE with CFD.
+ \item \hspace{16pt}  - Developing and validating a zero-dimensional framework for simulation of reacting expanding polyurethane foams, \href{https://github.com/MoDeNa-EUProject/MoDeNa}{(source code)}.
+ \item \hspace{16pt}  - Introducing a new solver, \quotes{\texttt{PUFoam}}, in OpenFOAM CFD code, based on coupling of PBE with CFD.
  \item \hspace{16pt}  - Providing guidance and mentorship to post graduate students in \quotes{multiscale modelling for materials science and process engineering research group}.
 \end{list}
 
@@ -190,7 +190,7 @@ xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
 \vspace{-0.4cm}
 
 \begin{list}{}{}
-\item Worked with Professor Akdogan and Professor Bradshaw on the development of a CFD model for conventional flotation vessels. A CFD-based methodology was formulated, introduced and validated for the prediction of flotation macro response by integrating the significance of the hydrodynamic flow features into the flotation micro-processes.  
+\item Worked with Professor Akdogan and Professor Bradshaw on the development of a CFD model for conventional flotation vessels. A CFD-based methodology was formulated, and validated for the prediction of flotation macro response by integrating the significance of the hydrodynamic flow features into the flotation micro-processes.
 \end{list}
 
 \begin{tabbing}
@@ -204,7 +204,7 @@ xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
 \vspace{-0.4cm}
 
 \begin{list}{}{}
-\item Worked with Professor Dehghani and Dr. Talebi on experimental, analytical and computational modelling of hydrocyclones.   
+\item Worked with Professor Dehghani and Professor. Talebi on experimental, analytical and computational modelling of hydrocyclones.   
 \end{list}
 
 %\newpage
@@ -231,7 +231,7 @@ xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
 
 \begin{enumerate}
     \item
-\underline{M. Karimi}, H. Droghetti, D. L. Marchisio, \quotes{Multiscale Modelling of Expanding Polyurethane Foams via Computational Fluid Dynamics and Population Balance Equation,} submitted to \textit{Macromolecular Symposia}, July 2015.
+\underline{M. Karimi}, H. Droghetti, D. L. Marchisio, \quotes{Multiscale Modelling of Expanding Polyurethane Foams via Computational Fluid Dynamics and Population Balance Equation,} accepted by \textit{Macromolecular Symposia}, November 2015.
 
 	\item
 \underline{M. Karimi}, D. L. Marchisio, \quotes{A Baseline Model for the Simulation of Polyurethane Foams via the Population Balance Equation,} \textit{Macromolecular Theory and Simulations}, Vol. 24(4), pp. 291--300, 2015.
@@ -252,7 +252,7 @@ xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
 A. Ghaffari, \underline{M. Karimi}, \quotes{Numerical Investigation on Multiphase Flow Simulation in a Centrifugal Flotation Cell,} \textit{International Journal of Coal Preparation and Utilization}, Vol. 32(3), pp. 120--129, 2012.
 
 	\item 
-\underline{M. Karimi}, G. Akdogan, A. Dehghani, S. M. Bradshaw, \quotes{Selection of Suitable Turbulence Models for Numerical Modelling of Hydrocyclones,} \textit{Chemical Product and Process Modelling}, Vol. 6(1), ISSN 1934-2659.
+\underline{M. Karimi}, G. Akdogan, A. Dehghani, S. M. Bradshaw, \quotes{Selection of Suitable Turbulence Models for Numerical Modelling of Hydrocyclones,} \textit{Chemical Product and Process Modelling}, Vol. 6(1), 2011.
 
 	\item
 \underline{M. Karimi}, A. Dehghani, A. Nezamalhosseini, S. Talebi, \quotes{Prediction of Hydrocyclone Performance Using Artificial Neural Networks,} \textit{The Journal of South African Institute of Mining and Metallurgy}, Vol. 110, pp. 207--212, 2010.
@@ -264,17 +264,17 @@ A. Ghaffari, \underline{M. Karimi}, \quotes{Numerical Investigation on Multiphas
 \begin{enumerate}
 
 	\item 
-\underline{M. Karimi}, D. L. Marchisio, \quotes{Coupling Population Balance Equation (PBE) with Computational Fluid Dynamics (CFD) for Multiphase Modelling of Expanding Polyurethane Foams,} to be presented at the \textit{9th International Conference on Multiphase Flow}, Firenze, Italy, May 22-27, 2016.
+\underline{M. Karimi}, P. Ferkl, D. L. Marchisio, J. Kosek, H. Droghetti, \quotes{Coupling of a macro-scale CFD model with a bubble-scale model for simulation of polyurethane foams}, to be presented at the \textit{22$^{nd}$ International Congress of Chemical and Process Engineering, CHISA}, Prague, Czech Republic, August 28-31, 2016.	
+	\item 
+\underline{M. Karimi}, D. L. Marchisio, \quotes{Coupling Population Balance Equation (PBE) with Computational Fluid Dynamics (CFD) for Multiphase Modelling of Expanding Polyurethane Foams,} to be presented at the \textit{9$^{th}$ International Conference on Multiphase Flow}, Firenze, Italy, May 22-27, 2016.
 	\item
-\underline{M. Karimi}, D. L. Marchisio, \quotes{Simulation of bubble growth and coalescence in reacting polymer foams}, \textit{In: Proceedings of 68th Annual Meeting of the APS Division of Fluid Dynamics}, Boston, MA, USA, November 22-24, 2015.
+\underline{M. Karimi}, D. L. Marchisio, \quotes{Simulation of bubble growth and coalescence in reacting polymer foams}, \textit{In: Proceedings of 68$^{th}$ Annual Meeting of the APS Division of Fluid Dynamics}, Boston, MA, USA, November 22-24, 2015.
 \item
 \underline{M. Karimi}, D. L. Marchisio, \quotes{Validation of a Macro-Scale CFD-PBE Model for the Polyurethane Foaming Process}, \textit{In: Proceeding of the AIChE 2015 Annual Meeting}, Salt Lake City, UT, USA, November 8-13, 2015.
 	\item 
-\underline{M. Karimi}, G. Akdogan, S. M. Bradshaw, \quotes{A CFD Model for the Flotation Rate Constant}, \textit{In: Proceedings of the $37^{th}$ International Symposium Application of Computers and Operations Research in the Mineral Industry (APCOM)}, pp. 445-456, May 2015.	
-
+\underline{M. Karimi}, G. Akdogan, S. M. Bradshaw, \quotes{A CFD Model for the Flotation Rate Constant}, \textit{In: Proceedings of the $37^{th}$ International Symposium Application of Computers and Operations Research in the Mineral Industry (APCOM)}, pp. 445-456, May 23-27, 2015.	
 	\item 
-\underline{M. Karimi}, D. L. Marchisio, \quotes{Multi-scale Modelling of a Reacting-Expanding Polyurethane Foam}, \textit{10th European Congress of Chemical Engineering}, Nice, France, September $27^{th}$ to October $1^{st}$, 2015.	
-
+\underline{M. Karimi}, D. L. Marchisio, \quotes{Multi-scale Modelling of a Reacting-Expanding Polyurethane Foam}, \textit{10th European Congress of Chemical Engineering}, Nice, France, September 27 to October 1, 2015.	
 	\item
 \underline{M. Karimi}, D. L. Marchisio, \quotes{Multiscale Modelling of Expanding Polyurethane Foams via Computational Fluid Dynamics and Population Balance Model}, \textit{In: Proceedings of Polymer Reaction Engineering IX (PRE9),} Cancun, Mexico, May 10-15, 2015.
 
@@ -285,17 +285,13 @@ A. Ghaffari, \underline{M. Karimi}, \quotes{Numerical Investigation on Multiphas
 %\fancyfoot[C]{}
 
 	\item
-\underline{M. Karimi}, G. Akdogan, K. Dellimore, S. M. Bradshaw, \quotes{Comparison of Different Drag Coefficients in CFD Modelling of a Laboratory Scale Rushton-Turbine Flotation Tank,} \textit{Proceedings of the Ninth International Conference on CFD in the Minerals and Process Industries}, CSIRO, Melbourne, Australia, December 2012.
-
+\underline{M. Karimi}, G. Akdogan, K. Dellimore, S. M. Bradshaw, \quotes{Comparison of Different Drag Coefficients in CFD Modelling of a Laboratory Scale Rushton-Turbine Flotation Tank,} \textit{In: Proceedings of the Ninth International Conference on CFD in the Minerals and Process Industries}, CSIRO, Melbourne, Australia, December 10-12, 2012.
 	\item
-\underline{M. Karimi}, G. Akdogan, K. Dellimore, S. M. Bradshaw, \quotes{Quantification of Numerical and Model Uncertainties in the CFD Simulation of the Gas Holdup and Flow Dynamics in a Laboratory Scale Rushton-turbine Flotation Tank,} \textit{Proceedings of the Ninth International Conference on CFD in the Minerals and Process Industries}, CSIRO, Melbourne, Australia, December 2012.
-
+\underline{M. Karimi}, G. Akdogan, K. Dellimore, S. M. Bradshaw, \quotes{Quantification of Numerical and Model Uncertainties in the CFD Simulation of the Gas Holdup and Flow Dynamics in a Laboratory Scale Rushton-turbine Flotation Tank,} \textit{In: Proceedings of the Ninth International Conference on CFD in the Minerals and Process Industries}, CSIRO, Melbourne, Australia, December 10-12, 2012.
 	\item 
-\underline{M. Karimi}, G. Akdogan, S. M. Bradshaw, A. Mainza,  \quotes{Numerical Modelling of Air Core in Hydrocyclones,} \textit{Proceedings of the Ninth International Conference on CFD in the Minerals and Process Industries}, CSIRO, Melbourne, Australia, December 2012.
-
+\underline{M. Karimi}, G. Akdogan, S. M. Bradshaw, A. Mainza,  \quotes{Numerical Modelling of Air Core in Hydrocyclones,} \textit{In: Proceedings of the Ninth International Conference on CFD in the Minerals and Process Industries}, CSIRO, Melbourne, Australia, December 10-12, 2012.
 	\item 
 \underline{M. Karimi}, G. Akdogan, S. M. Bradshaw, \quotes{CFD Simulation of a Mechanically Stirred Tank using Multiple Reference Frames Technique,} \textit{MINPRO 2011 South African Institute of Mining \& Metallurgy}, Western Cape Branch, Cape Town, South Africa, 2011.
-
 	\item 
 \underline{M. Karimi}, G. Akdogan, S. M. Bradshaw, \quotes{Comparison of Various Turbulence Models for CFD Simulation of Hydrocyclones,} \textit{MINPRO 2011 South African Institute of Mining \& Metallurgy}, Western Cape Branch, Cape Town, South Africa, 2011.
 
@@ -386,6 +382,10 @@ A. Ghaffari, \underline{M. Karimi}, \quotes{Numerical Investigation on Multiphas
 \item - Ali Dehghani, (a.dehghani@yazduni.ac.ir), Associate Professor, Faculty of Mining and Metallurgical Engineering, Yazd University, Yazd, Iran.
 \end{list}
 
+\thispagestyle{fancy}
+%\lhead{\textcolor{gray}{\it Mohsen Karimi}}
+\rfoot{\textcolor{gray}{Page \thepage}}
+\fancyfoot[C]{}
 \end{document}
 
 
