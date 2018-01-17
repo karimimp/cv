@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                             Curriculum Vitae                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[10pt,a4]{article}
+\topmargin-1.5cm
+\advance\oddsidemargin-0.65in
+\advance\evensidemargin-0.65in
+\textheight9.2in
+\textwidth6.05in
+\newcommand\bb[1]{\mbox{\em #1}}
+%\def\baselinestretch{1.25}
+\def\baselinestretch{1.0}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+\usepackage{hyperref}
+\usepackage{multicol}
+% The use of the times package forces the use of the type-1 times
+% roman font, but the times roman font does not look nice.
+% Besides the times roman font still does not print correctly on
+% the dopy printer.
+%\usepackage{times}
+
+\usepackage{fancyhdr}
+\usepackage{origpagecounting}
+\usepackage[dvips]{color}
+\usepackage{fixltx2e}
+
+\usepackage{xcolor}
+
+\newcounter{myEnumCounter}
+\newcounter{mySaveCounter}
+\renewenvironment{enumerate}{%
+  \begin{list}{\arabic{myEnumCounter}.}{\usecounter{myEnumCounter}%
+  \setcounter{myEnumCounter}{\value{mySaveCounter}}}
+  }{%
+  \setcounter{mySaveCounter}{\value{myEnumCounter}}\end{list}%
+}
+\newcommand{\quotes}[1]{``#1''}
+\newcommand\myEnumReset{\setcounter{mySaveCounter}{0}}
+
+% The old enumerate environment is rewritten, so you need no special command to
+% start continuing counting. With the command \myEnumReset you can Reset the couter
+% at any place in the text.
+
+% http://www.educat.hu-berlin.de/~voss/lyx/list/enum.phtml
+
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+
+\begin{document}
+
+%\thispagestyle{empty}
+%\pagestyle{plain}
+
+\thispagestyle{fancy}
+%\pagenumbering{gobble}
+%\fancyhead[location]{text}
+% Leave Left and Right Header empty.
+%\lhead{\textcolor{gray}{\it Francesca Boso}}
+%\rhead{\textcolor{gray}{\thepage/\totalpages{}}}
+%\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\footnotesize \textcolor{gray}{}}
+%A copy of this curriculum vitae, publications and
+%talk slides are available for download at
+%http://www.stanford.edu/$\sim$sundaes/application}}
+
+
+%\pagestyle{myheadings}
+%\markboth{Sundar Iyer}{Sundar Iyer}
+
+%\vspace*{0.4cm}
+\begin{center}
+{\huge \bf Mohsen Karimi}
+%\vspace*{0.25cm}
+\end{center}
+
+%\begin{small}
+
+%===================================
+\begin{tabbing}
+\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+
+Department of Chemistry and Chemical Engineering& Cell: +46 070 540 1274\\
+Chalmers University of Technology& Email: mohsen.k@chalmers.se\\
+412 96, Gothenburg, Sweden & \href{https://orcid.org/0000-0002-1182-1133}{ORCID ID} \\ 
+  \\
+\end{tabular*}
+\end{tabbing}
+
+%==========================================
+%\vspace{0.20cm}
+\thispagestyle{fancy}
+%\lhead{\textcolor{gray}{\it Mohsen Karimi}}
+\rfoot{\textcolor{gray}{Page \thepage}}
+\fancyfoot[C]{}
+
+\subsubsection*{SUMMARY STATEMENT}
+%{\color{DarkSeaGreen}} \hrule
+\hrule
+\vspace{0.2cm}
+\begin{list}{}{}
+\item  Researcher in Computational Fluid Dynamics with a passion for turbulent multiphase systems and programming. Over ten years of experience developing and applying CFD models for a wide range of problems in chemical and process engineering fields.
+\end{list}
+\vspace{0.1cm}
+\subsubsection*{EMPLOYMENT HISTORY}
+\hrule
+\vspace{0.2cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tabbing}
+xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+%\>*}{6.1in}{lr}
+
+\>\begin{tabular*}{0.97\linewidth}{l@{\extracolsep{\fill}}r}
+\textit{Postdoctoral Researcher} & \textit{2017 - Present} \\
+Department of Chemistry and Chemical Engineering& \\
+Chalmers University of Technology& Gothenburg, Sweden\\
+\vspace{0.05cm}\\
+\textit{Postdoctoral Researcher} & \textit{2014 - 2017} \\
+Department of Applied Science and Technology, \\
+Politecnico di Torino & Turin, Italy\\
+\end{tabular*}
+\end{tabbing}
+
+\subsubsection*{EDUCATION}
+\hrule
+\vspace{0.2cm}
+
+\begin{tabbing}
+xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+%\>*}{6.1in}{lr}
+
+\>\begin{tabular*}{0.97\linewidth}{l@{\extracolsep{\fill}}r}
+
+Ph.D. in  Extractive Metallurgical Engineering & 
+{\it December 2013}\\
+Process Engineering Department \\
+University of Stellenbosch & Stellenbosch, South Africa\\
+Dissertation: \quotes{CFD Analysis of Solid-Liquid-Gas \\Interactions in Flotation Vessels}\\
+
+\end{tabular*}
+\end{tabbing}
+
+
+
+\subsection*{SKILLS}
+\hrule
+\vspace{0.2cm}
+\begin{list}{}{}
+	\item \textbf{Pre-processing:} Proficient in Design Modeller and GAMBIT, familiar with SALOME and Blender.
+	\item \textbf{CFD codes:} Proficient in OpenFOAM and Fluent.
+	\item \textbf{Post-processing:} Proficient in CFD-Post and ParaView.	
+	\item \textbf{Programming:} Proficient in C++ and MATLAB, experienced with Python.
+    \item \textbf{Design of Experiments:} Proficient in Design Expert, MiniTab, Qualitek.
+    \item \textbf{Mineral processing tools:} Experienced with MODSIM, familiar with JKSimMet.
+\end{list}
+
+%\end{small}
+
+\subsection*{REFERENCE}
+\hrule
+\vspace{0.2cm}
+
+\begin{list}{}{}
+\item  Ronnie Andersson (\href{mailto:ronnie.andersson@chalmers.se}{ronnie.andersson@chalmers.se}), Associate Professor, Department of Chemistry and Chemical Engineering, Chalmers University of Technology, Gothenburg, Sweden.
+
+\end{list}
+
+\thispagestyle{fancy}
+%\lhead{\textcolor{gray}{\it Mohsen Karimi}}
+\rfoot{\textcolor{gray}{Page \thepage}}
+\fancyfoot[C]{}
+\end{document}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
